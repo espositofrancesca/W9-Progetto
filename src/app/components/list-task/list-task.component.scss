@@ -1,0 +1,21 @@
+
+.list{
+    button{
+      background-color: transparent;
+      border: none;
+      float: right;
+      font-size: 1.4rem;
+      cursor: pointer;
+i{
+  margin: 0.5rem;
+}
+      .bi-trash{
+        color: rgb(248, 103, 103);
+      }
+
+      .bi-check-circle-fill{
+        color: rgb(78, 175, 82);
+      }
+    }
+}
+

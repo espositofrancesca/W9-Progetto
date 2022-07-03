@@ -1,0 +1,36 @@
+$myfont: 'Poppins', sans-serif;
+
+.input {
+  margin-top: 1rem;
+  input {
+    padding: 0.7rem;
+    background-color: rgba(255, 255, 255, 0.258);
+    border: none;
+    border-radius: 1rem;
+  }
+}
+
+.btn {
+  width: 100%;
+  button {
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.693);
+  }
+}
+
+input,
+button {
+  font-family: $myfont;
+  text-align: center;
+  width: 70%;
+  border-radius: 1rem;
+  border: none;
+}
+
+.input,
+.btn {
+  text-align: center;
+}
+
+
