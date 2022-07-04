@@ -36,12 +36,12 @@ export class TodosService {
 
   //metodo per aggiungere task
   addTask(task: ITodo):void{
-    this.tasklist.push(task)
-   /*  console.log(this.tasklist); */
+      this.tasklist.push(task)
   }
 
   deleteTask(task: ITodo) : void{
     let index = this.tasklist.indexOf(task);
     this.tasklist.splice(index, 1)
   }
+
 }

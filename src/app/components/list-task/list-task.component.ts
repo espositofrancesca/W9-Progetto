@@ -12,6 +12,7 @@ export class ListTaskComponent implements OnInit {
 
   tasks !: ITodo[]
 
+
   constructor(private todosService: TodosService) { }
 
   ngOnInit(): void {
@@ -20,12 +21,19 @@ export class ListTaskComponent implements OnInit {
 
 
   removeTask(task: ITodo) {
-    this.todosService.completeTask(task)
+
+    setTimeout(() => {
+      this.todosService.completeTask(task)
+    }, 2000)
   }
 
-  deleteTask(task: ITodo){
-    this.todosService.deleteTask(task)
+  deleteTask(task: ITodo) {
+
+    setTimeout(() => {
+      this.todosService.deleteTask(task)
+    }, 2000)
   }
+
 }
 
 

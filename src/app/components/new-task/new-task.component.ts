@@ -22,9 +22,11 @@ export class NewTaskComponent implements OnInit {
   }
 
   addTask() : void{
-    let obj = new Task (this.id++, this.title, this.complete)
+    setTimeout(() => {
+      let obj = new Task (this.id++, this.title, this.complete)
     this.todosService.addTask(obj)
     this.title = ''
+    }, 2000)
   }
 
 }
